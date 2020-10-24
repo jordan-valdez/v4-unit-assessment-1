@@ -1,17 +1,17 @@
 //////////////////PROBLEM 1////////////////////
 /* Create a variable called 'myName' with a value that is your name. */
 
-//CODE HERE 
+let myName = `Jordan`//CODE HERE 
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
-//CODE HERE
+let faveNum = 6//CODE HERE
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
-//CODE HERE
+let lovesCode = true//CODE HERE
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -19,7 +19,9 @@
   The function should return the sum of the two parameters.
 */
 
-//CODE HERE
+function sum(num1, num2){
+  return num1 + num2
+}//CODE HERE
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -29,7 +31,9 @@
   If 'x' does not equal true, return a false boolean.
 */
 
-//CODE HERE
+function lovesCodeChecker(x){
+  x === true ? console.log true: console.log false
+}//CODE HERE
 
 //////////////////PROBLEM 6////////////////////
 /*
