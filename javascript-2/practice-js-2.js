@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = `Git is a control system that we use to track the progress of our  projects`//CODE HERE
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = `Github is a website where repositories are stored`//CODE HERE
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +33,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+let init = {
+    description: `Allows git to watch said files`,
+    code: `git init`,
+}//CODE HERE
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +44,10 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+let clone = {
+    description: `Clones files to your curent location in your computer`,
+    code: `git clone`,
+}//CODE HERE
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +55,10 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+let status = {
+    description: `shows what stage of the process you are on to push your code `,
+    code: `git status`,
+}//CODE HERE
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +66,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add = {
+    description: `tells git to track any changes that have been made `,
+    code: `git add`,
+}//CODE HERE
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +77,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit = {
+    description: `names the changes that you will be pushing `,
+    code: `git commit -m 'message about your changes'`,
+}//CODE HERE
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +88,10 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+let addRemote = {
+    description: `adds a place on the internet to store your code `,
+    code: `git remote add origin https://github.com/jordan-valdez/JavaScript-Basics.git`,
+}//CODE HERE
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +99,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push = {
+    description: `push's code to github to be stored`,
+    code: `git push -u origin main`,
+}//CODE HERE

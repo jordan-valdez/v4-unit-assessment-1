@@ -32,8 +32,11 @@ function sum(num1, num2){
 */
 
 function lovesCodeChecker(x){
-  x === true ? console.log true: console.log false
-}//CODE HERE
+  if (x === true){
+    return true}
+    else{return false}
+}
+//CODE HERE
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -43,7 +46,10 @@ function lovesCodeChecker(x){
   If the number is even, return the string: 'the number is even'.
 */
 
-//CODE HERE
+function oddChecker(num){
+  num % 2 !== 0 ? console.log("the number is odd") : console.log("the number is even")
+
+}//CODE HERE
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -52,7 +58,9 @@ function lovesCodeChecker(x){
   "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 */
 
-//CODE HERE
+function iLove(name, love){
+  return (`${name} loves ${love}`)
+}//CODE HERE
 
 
 //////////////////PROBLEM 8////////////////////
@@ -60,12 +68,13 @@ function lovesCodeChecker(x){
 
 const faveColors = ['red', 'green', 'black']
 
+var colorCopy = faveColors.slice(0, 2);
 //CODE HERE
 
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
-//CODE HERE
+colorCopy.push(`blue`)//CODE HERE
 
 //////////////////PROBLEM 10////////////////////
 /*
