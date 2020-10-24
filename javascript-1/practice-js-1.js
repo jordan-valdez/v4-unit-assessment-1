@@ -228,11 +228,11 @@ function giveMeDoubles(arr, cb){
 */
 
 function carFactory(make, model, year){
-  return{
+  let car = {
     make: make,
     model: model,
     year: year,}
-}
-let subaru = carFactory(`subaru`, `impreza`, 2017)
-subaru.isNew = subaru.year >2018 ? true : false
-//CODE HERE
+    if (year > 2018){
+      car.isNew = true
+  }else{car.isNew = false}
+}//CODE HERE
